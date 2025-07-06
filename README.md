@@ -6,7 +6,7 @@ A clean and feature-rich task manager app built using **React + Vite + Tailwind 
 
 ## 🚀 Live Demo
 
-🔗 [View Live Demo]
+🔗 Live Demo : https://lowcodelabs-task-manager-app.vercel.app/
 
 ---
 

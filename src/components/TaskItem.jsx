@@ -71,7 +71,7 @@ function TaskItem({ task }) {
               : "bg-green-600 hover:bg-green-700"
           } text-white`}
         >
-          {task.status === "completed" ? "Undo" : "Complete"}
+          {task.status === "completed" ? "Pending" : "Complete"}
         </button>
         <button
           onClick={() => setEditTask(task)}
