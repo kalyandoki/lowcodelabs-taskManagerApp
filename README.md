@@ -63,7 +63,7 @@ task-manager/
 
 ### 📷 Screenshot
 
-![alt text](image.png)
+![alt text](<Personal Task Management Application - Personal - Microsoft​ Edge 06-07-2025 22_26_00.png>)
 
 📌 Author
 Made with ❤️ by Pavankalyan Doki.
