@@ -25,7 +25,11 @@ function App() {
 
   return (
     <div className={dark ? "dark" : ""}>
-      <div className="min-h-screen bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 p-4 transition-colors">
+      <div
+        className={`min-h-screen transition-colors duration-300 ${
+          dark ? " bg-black text-white" : "bg-gray-600 text-gray-100"
+        } p-4`}
+      >
         <div className="max-w-2xl mx-auto">
           <div className="flex justify-between items-center mb-4">
             <h1 className="text-3xl font-bold">
