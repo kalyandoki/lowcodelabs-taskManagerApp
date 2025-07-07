@@ -1,22 +1,24 @@
 # 📋 Personal Task Manager App
 
-A clean and feature-rich task manager app built using **React + Vite + Tailwind CSS** with full localStorage persistence.
+A modern, responsive, and feature-rich **Task Management Web App** built with **React + Vite + Tailwind CSS**, powered by the **Context API** for global state management, and supports **localStorage** for persistent data storage across sessions.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 Live Demo : https://lowcodelabs-task-manager-app.vercel.app/
+🌐 Live Demo : https://lowcodelabs-task-manager-app.vercel.app/
 
 ---
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React 18+ with Hooks
-- ⚡ Vite
-- 🎨 Tailwind CSS
-- 🧠 Context API for state management
-- 💾 LocalStorage for data persistence
+| Technology      | Purpose                                       |
+| --------------- | --------------------------------------------- |
+| ⚛️ React        | UI library using modern functional components |
+| ⚡ Vite         | Fast build tool and development server        |
+| 🎨 Tailwind CSS | Utility-first CSS framework for styling       |
+| 🧠 Context API  | Global state management                       |
+| 💾 localStorage | Persistent task saving between sessions       |
 
 ---
 
@@ -24,25 +26,26 @@ A clean and feature-rich task manager app built using **React + Vite + Tailwind 
 
 ### ✅ Core Features
 
-- Add, Edit, and Delete tasks
-- Mark tasks as Completed or Pending
-- Filter tasks by All / Pending / Completed
-- Search tasks by title
-- LocalStorage: persist tasks between sessions
+- ➕ **Add Task** – Create new tasks with title and description.
+- ✏️ **Edit Task** – Easily update an existing task using edit mode.
+- 🗑️ **Delete Task** – Remove tasks instantly.
+- ✅ **Toggle Status** – Mark tasks as `Completed` or revert to `Pending`.
+- 🔍 **Search** – Filter tasks based on keywords in title.
+- 📂 **Filter by Status** – View tasks by `All`, `Pending`, or `Completed`.
+- 💾 **Persist Data** – All tasks are saved in localStorage automatically.
 
 ### 🌟 Bonus Features
 
-- Dark / Light mode toggle 🌙☀️
-- Priority Levels (High, Medium, Low)
-- Due Date with overdue warning
-- Sort Dropdown (Priority / Date / Title)
-- Task counters: Pending / Completed stats
-- Responsive UI (Mobile-Friendly)
-- Tailwind-based styling and hover animations
+- 🌙 **Dark / ☀️ Light Mode** – Toggle themes with a single click.
+- 🔴 **Priority Levels** – Assign tasks with `Low`, `Medium`, or `High` priority.
+- 📅 **Due Dates** – Set deadlines and highlight overdue tasks.
+- 📊 **Task Stats** – Real-time count of `Pending` and `Completed` tasks.
+- 💻 **Responsive Design** – Optimized layout for all devices.
+- 🎨 **Tailwind Animations** – Smooth transitions, hover effects, and stylish UI.
 
 ---
 
-## 📁 Folder Structure
+## 🧱 Folder Structure
 
 task-manager/
 ├── public/
@@ -61,9 +64,15 @@ task-manager/
 ├── tailwind.config.js
 ├── README.md
 
-### 📷 Screenshot
+---
 
-![alt text](<Personal Task Management Application - Personal - Microsoft​ Edge 06-07-2025 22_26_00.png>)
+## 📷 Screenshot
 
-📌 Author
-Made with ❤️ by Pavankalyan Doki.
+![alt text](<Personal Task Management Application - Personal - Microsoft​ Edge 07-07-2025 07_55_25.png>)
+![alt text](<Personal Task Management Application - Personal - Microsoft​ Edge 07-07-2025 07_55_43.png>)
+
+---
+
+## 📌 Author
+
+Made with ❤️ by **Pavankalyan Doki**
