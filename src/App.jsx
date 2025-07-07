@@ -35,12 +35,12 @@ function App() {
         >
           <div className="max-w-4xl mx-auto rounded-3xl p-6 md:p-10 shadow-2xl bg-white/80 dark:bg-[#1f2937]/10 backdrop-blur-lg border border-gray-200 dark:border-gray-700 transition-all">
             <div className="flex justify-between items-center mb-6">
-              <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-                📋 Personal Task Manager
-              </h1>
+              <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                📋 Personal Task Manager Application
+              </h2>
               <button
                 onClick={() => setDark(!dark)}
-                className="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-4 py-2 rounded-lg shadow-md hover:scale-105 transition-all duration-300"
+                className="bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-bold px-4 py-2 rounded-lg shadow-md hover:scale-105 transition-all duration-300"
               >
                 {dark ? "☀️ Light" : "🌙 Dark"}
               </button>
