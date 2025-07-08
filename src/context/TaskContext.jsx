@@ -12,6 +12,7 @@ export const TaskProvider = ({ children }) => {
   const [search, setSearch] = useState("");
   const [editTask, setEditTask] = useState(null);
   const [dark, setDark] = useState(false);
+  const [deleteMessage, setDeleteMessage] = useState("");
 
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
@@ -26,7 +27,12 @@ export const TaskProvider = ({ children }) => {
     }
   };
 
-  const deleteTask = (id) => setTasks(tasks.filter((task) => task.id !== id));
+  const deleteTask = (id) => {
+    setTasks((prev) => prev.filter((task) => task.id !== id));
+    setDeleteMessage("🗑️ Task deleted successfully");
+
+    setTimeout(() => setDeleteMessage(""), 3000);
+  };
 
   const toggleStatus = (id) => {
     setTasks(
@@ -70,6 +76,7 @@ export const TaskProvider = ({ children }) => {
         completedCount,
         pendingCount,
         filteredTasks,
+        deleteMessage,
       }}
     >
       {children}

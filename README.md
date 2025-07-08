@@ -70,6 +70,8 @@ task-manager/
 
 ![alt text](<Personal Task Management Application - Personal - Microsoft​ Edge 07-07-2025 07_55_25.png>)
 ![alt text](<Personal Task Management Application - Personal - Microsoft​ Edge 07-07-2025 07_55_43.png>)
+![alt text](<Personal Task Management Application - Personal - Microsoft​ Edge 08-07-2025 09_22_15.png>)
+![alt text](<Personal Task Management Application - Personal - Microsoft​ Edge 08-07-2025 09_23_14.png>)
 
 ---
 

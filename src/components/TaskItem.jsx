@@ -79,7 +79,7 @@ function TaskItem({ task }) {
 
           <button
             onClick={() => setEditTask(task)}
-            className="text-xs font-medium px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 text-white shadow-md transition-all"
+            className="text-xs px-3 py-1 rounded bg-blue-500 hover:bg-blue-600 text-white"
           >
             ✏️ Edit
           </button>
